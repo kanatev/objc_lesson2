@@ -49,7 +49,11 @@
         }
 
         int division(int a, int b) {
+            if (b != 0) {
             return a / b;
+            } else {
+                return 0;
+            }
         }
 
         int remain(int a, int b) {
@@ -76,7 +80,7 @@ int main(int argc, const char * argv[]) {
         int new1 = addition(3, 4);
         int new2 = subtraction(3, 2);
         int new3 = multiplication(4, 5);
-        int new4 = division(6, 3);
+        int new4 = division(6, 2);
         int new5 = remain(9, 2);
         
         NSLog(@"Результат сложения: %i", new1);
