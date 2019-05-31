@@ -18,9 +18,11 @@
 
             //пробегаемся по массиву
             for (NSMutableString *i in letterBox) {
-                if (i == userLetter) {
+                if ([i isEqualToString: userLetter]) {
                     isEnglish = YES;
-                } else if (i != userLetter) {
+                    break;
+                    
+                } else if ([i isNotEqualTo: userLetter]) {
                     isEnglish = NO;
                 }
             }
