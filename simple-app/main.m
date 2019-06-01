@@ -36,31 +36,31 @@
             }
         }
 
-        //Задание 2
+//        Задание 2
 
-//        int addition(int a, int b) {
-//            return a + b;
-//        }
-//
-//        int subtraction(int a, int b) {
-//            return a - b;
-//        }
-//
-//        int multiplication(int a, int b) {
-//            return a * b;
-//        }
-//
-//        int division(int a, int b) {
-//            if (b != 0) {
-//            return a / b;
-//            } else {
-//                return 0;
-//            }
-//        }
-//
-//        int remain(int a, int b) {
-//            return a % b;
-//        }
+        int addition(int a, int b) {
+            return a + b;
+        }
+
+        int subtraction(int a, int b) {
+            return a - b;
+        }
+
+        int multiplication(int a, int b) {
+            return a * b;
+        }
+
+        int division(int a, int b) {
+            if (b != 0) {
+            return a / b;
+            } else {
+                return 0;
+            }
+        }
+
+        int remain(int a, int b) {
+            return a % b;
+        }
 
         
 
@@ -79,17 +79,17 @@ int main(int argc, const char * argv[]) {
         
         
         //Задание 2
-//        int new1 = addition(3, 4);
-//        int new2 = subtraction(3, 2);
-//        int new3 = multiplication(4, 5);
-//        int new4 = division(6, 0);
-//        int new5 = remain(9, 2);
-//
-//        NSLog(@"Результат сложения: %i", new1);
-//        NSLog(@"Результат вычитания: %i", new2);
-//        NSLog(@"Результат умножения: %i", new3);
-//        NSLog(@"Результат деления: %i", new4);
-//        NSLog(@"Результат остатка от деления: %i", new5);
+        int new1 = addition(3, 4);
+        int new2 = subtraction(3, 2);
+        int new3 = multiplication(4, 5);
+        int new4 = division(6, 0);
+        int new5 = remain(9, 2);
+
+        NSLog(@"Результат сложения: %i", new1);
+        NSLog(@"Результат вычитания: %i", new2);
+        NSLog(@"Результат умножения: %i", new3);
+        NSLog(@"Результат деления: %i", new4);
+        NSLog(@"Результат остатка от деления: %i", new5);
         
     }
     return 0;
